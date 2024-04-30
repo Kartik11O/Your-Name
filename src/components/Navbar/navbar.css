@@ -6,8 +6,9 @@
   align-items: center;
   width: 100%;
   height: clamp(85px, 9vh, 85px);
-  background-color: #0f0f0fab;
+  background-color: #b7b7b730;
   z-index: 1;
+  filter: drop-shadow(2px 4px 6px black);
   font-family: var(--Headline2);
 }
 .flex {
@@ -39,6 +40,7 @@
   color: #66e4e3;
   font-size: clamp(15px, 1.7vw, 40px);
   letter-spacing: 1px;
+  font-weight: 700;
 }
 #box3 {
   width: clamp(384px, 20vw, 384px);
@@ -64,7 +66,7 @@
   height: 29px;
 }
 #box3 h2 {
-  color: #e7e7e7;
+  color: #000000;
   font-size: 1.5rem;
   letter-spacing: 2px;
 }

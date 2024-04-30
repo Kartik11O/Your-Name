@@ -1,0 +1,18 @@
+.BTN {
+  font-family: var(--Headline2);
+  font-weight: 800;
+  border-radius: 23px;
+}
+#btn1 {
+}
+#btn2 {
+  border: 2px solid #bbb;
+}
+.btn-headline {
+  filter: drop-shadow(0px 5px 2px black);
+  font-size: 1.5vw;
+}
+.btn-headline1 {
+  filter: drop-shadow(2px 2px 4px black);
+  font-size: 1.2vw;
+}

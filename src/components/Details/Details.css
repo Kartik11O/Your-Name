@@ -1,0 +1,36 @@
+#Content {
+  position: relative;
+  width: 33vw;
+  height: 53vh;
+  background: #ffffff1f;
+  border-radius: 35px;
+  padding: 24px;
+  filter: drop-shadow(2px 4px 6px black);
+}
+#Popular {
+  width: max-content;
+  /* background: red; */
+  height: max-content;
+}
+#Popular h2 {
+  font-family: var(--Headline2);
+  color: #66e4e3;
+  font-size: 2vw;
+}
+#Headline {
+  width: max-content;
+  height: max-content;
+}
+#Headline h1 {
+  font-family: var(--Headline);
+  color: #ffffff;
+  font-size: 3.5vw;
+  font-weight: 900;
+}
+#Paragarph {
+}
+#Paragarph p {
+  color: #ffffff;
+  width: 28vw;
+  font-size: 0.9vw;
+}
