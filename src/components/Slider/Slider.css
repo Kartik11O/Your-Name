@@ -1,7 +1,7 @@
 #Container-Slider {
   position: relative;
   width: 60vw;
-  height: 38vh;
+  height: 32vh;
   background: #ffffff45;
   filter: drop-shadow(2px 4px 6px black);
   overflow: scroll;
@@ -27,3 +27,4 @@
   /* border: 2px solid rgb(243, 243, 243); */
   display: inline-flex;
 }
+

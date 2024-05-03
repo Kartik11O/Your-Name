@@ -1,0 +1,55 @@
+#Footer-Container{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: clamp(300px, 59vw, 1132px);
+    height: 100%;
+}
+#BTN-Container-B{
+    width: clamp(300px, 49vw, 940px);
+    height: clamp(95px, 10vh, 95px);
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+#PageNo{
+    width: 10vw;
+    height: 10vh;
+}
+#BTNS{
+    width: clamp(230px, 12vw, 230px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.O{
+    position: relative;
+    width: 95px;
+    height: 93px;
+    border: 2px solid #fff;
+    border-radius: 11rem;
+    background: #00000066;
+    transition: 0.3s;
+}
+#Line{
+    width: clamp(300px, 31vw, 595px);
+    height: 3px;
+    background: white; 
+}
+.O-Logo{
+    color: #45cccc;
+    font-family: var(--Headline2);
+    font-size: 1.3vw;
+    margin: auto;
+    letter-spacing: 1px;
+    font-weight: 200;
+
+}
+.O:hover{
+background-color: 	#28282B;
+color: #bbb;
+}

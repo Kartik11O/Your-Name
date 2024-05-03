@@ -4,25 +4,6 @@ body {
   box-sizing: border-box;
   background-color: #525252;
 }
-#Holder {
-  /* background: red; */
-  width: 40vw;
-  z-index: 99;
-  height: 58vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#Holder2 {
-  width: 51vw;
-  height: 46vh;
-  /* background: pink; */
-  z-index: 99;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 ::-webkit-scrollbar {
   display: none;
 }
@@ -35,7 +16,39 @@ body {
   background: rgb(107, 105, 105);
   border-radius: 35px;
 }
-
+#Holder {
+  position: relative;
+  width: 40vw;
+  z-index: 99;
+  height: 58vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Holder2 {
+  position: relative;
+  width: 51vw;
+  height: 47vh;
+  z-index: 99;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+#Main{
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  z-index: 9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+footer{
+  position: relative;
+  width: clamp(300px, 100%, 1920px);
+  height: clamp(114px, 12vh, 114px);
+  z-index: 9;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

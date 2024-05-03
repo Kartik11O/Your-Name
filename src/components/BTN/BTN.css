@@ -1,16 +1,24 @@
 .BTN {
-  font-family: var(--Headline2);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 800;
-  border-radius: 23px;
+  border-radius: 14px;
 }
 #btn1 {
+  width: 14vw;
+    height: 7vh;
 }
 #btn2 {
   border: 2px solid #bbb;
+  width: 9vw;
+  height: 7vh;
 }
 .btn-headline {
-  filter: drop-shadow(0px 5px 2px black);
-  font-size: 1.5vw;
+  filter: drop-shadow(-2px 4px 1px rgb(37, 37, 37));
+  font-size: 1.7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .btn-headline1 {
   filter: drop-shadow(2px 2px 4px black);
