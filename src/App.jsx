@@ -14,8 +14,7 @@ function App() {
         <div id="Main">
           <div id="Holder">
             <Details>
-              {" "}
-              <Star /> <BTN />{" "}
+              <Star /> <BTN />
             </Details>
           </div>
           <div id="Holder2">

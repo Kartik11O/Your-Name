@@ -14,10 +14,7 @@
     align-items: center;
     gap: 45px;
 }
-#PageNo{
-    width: 10vw;
-    height: 10vh;
-}
+
 #BTNS{
     width: clamp(230px, 12vw, 230px);
     height: 100%;
@@ -52,4 +49,17 @@
 .O:hover{
 background-color: 	#28282B;
 color: #bbb;
+}
+
+#PageNo{
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#PageNo h3{
+    color: #3fd4d4;
+    font-family: var(--Headline2);
+    font-size: 1.8vw;
 }
